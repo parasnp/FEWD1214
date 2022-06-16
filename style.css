@@ -1,18 +1,16 @@
-/*Iteration 1 :Using "overflow" property  hide the contents of the div spilling out*/
+
 .container-1
-{
+{/*Iteration 1 :Using "overflow" property  hide the contents of the div spilling out*/
   overflow: hidden;
   height: 120px;
 }
-/*Iteration 2 :Using "overflow" property "auto" prevent the overflowing of text such that the user is able to scroll and view the entire content*/
 .container-2
-{ 
+{ /*Iteration 2 :Using "overflow" property "auto" prevent the overflowing of text such that the user is able to scroll and view the entire content*/
   overflow: auto;
   height: 120px;
 }
-/*Iteration 2 :Using "overflow" property "wrap" prevent the overflowing of text such that the browser is allowed to break lines with longer words */
 .container-3
-{
+{/*Iteration 2 :Using "overflow" property "wrap" prevent the overflowing of text such that the browser is allowed to break lines with longer words */
   overflow-wrap: break-word;
   width: 100px;
 }
