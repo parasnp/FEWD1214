@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .container-1{
   /*Iteration 1 :Using suitable CSS properties hide the contents of the div spilling out*/
@@ -14,15 +15,21 @@
   overflow: auto;
   height: 200px;
 }
+=======
+/*Iteration 1 :Using "overflow" property  hide the contents of the div spilling out*/
+.container-1{overflow: hidden;height: 120px;}
+/*Iteration 2 :Using "overflow" property "auto" prevent the overflowing of text such that the user is able to scroll and view the entire content*/
+.container-2{  overflow: auto;height: 120px;}
+/*Iteration 2 :Using "overflow" property "wrap" prevent the overflowing of text such that the browser is allowed to break lines with longer words */
+.container-3{overflow-wrap: break-word;width: 100px;}
+>>>>>>> f2136e73878fe7c17abdc5c2812edcca6661946a
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
-
 html {
   box-sizing: border-box;
 }
-
 *, *:before, *:after {
   box-sizing: inherit;
 }
