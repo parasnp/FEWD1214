@@ -1,65 +1,70 @@
-<<<<<<< HEAD
-
-.container-1{
+.container-1 {
   /*Iteration 1 :Using suitable CSS properties hide the contents of the div spilling out*/
   overflow: hidden;
   height: 200px;
 }
-.container-2{ 
+
+.container-2 {
   /*Iteration 2 :Using suitable CSS properties prevent the overflowing of text such that the user is able to scroll in the x and y direction and view the entire content*/
   overflow: scroll;
   height: 200px;
 }
-.container-3{
- /*Iteration 3 :Using suitable CSS properties allow the browser to add a scrollbar automatically if there is overflow */
+
+.container-3 {
+  /*Iteration 3 :Using suitable CSS properties allow the browser to add a scrollbar automatically if there is overflow */
   overflow: auto;
   height: 200px;
 }
-=======
-/*Iteration 1 :Using "overflow" property  hide the contents of the div spilling out*/
-.container-1{overflow: hidden;height: 120px;}
-/*Iteration 2 :Using "overflow" property "auto" prevent the overflowing of text such that the user is able to scroll and view the entire content*/
-.container-2{  overflow: auto;height: 120px;}
-/*Iteration 2 :Using "overflow" property "wrap" prevent the overflowing of text such that the browser is allowed to break lines with longer words */
-.container-3{overflow-wrap: break-word;width: 100px;}
->>>>>>> f2136e73878fe7c17abdc5c2812edcca6661946a
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
+
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
+
 .column {
   float: left;
   width: 33.3%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
 }
+
 .about-section {
   padding: 50px;
   text-align: center;
   background-color: #474e5d;
   color: white;
 }
+
 .container {
   padding: 0 16px;
 }
-.container::after, .row::after {
+
+.container::after,
+.row::after {
   content: "";
   clear: both;
   display: table;
 }
+
 .title {
   color: grey;
 }
+
 .button {
   border: none;
   outline: 0;
@@ -71,9 +76,11 @@ html {
   cursor: pointer;
   width: 100%;
 }
+
 .button:hover {
   background-color: #555;
 }
+
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
